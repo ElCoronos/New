@@ -22,7 +22,6 @@ public OnGameModeInit()
          CreateVehicle(463, 1603, -1503.0453, 1000, 82.2873, 0, 1, 200);
          CreateVehicle(532, 1510, -1400.0453, 1000.2887, 82.2873, 0, 1, 200);
          CreateVehicle(564, 2000.1763, -1503.0453, 32.2887, 82.2873, 0, 1, 200);
-
 	SetGameModeText("Blank Script NEW TYT");
 
 	return 1;
@@ -32,7 +31,6 @@ public OnGameModeExit()
 {
 	return 1;
 }
-
 public OnPlayerRequestClass(playerid, classid)
 {
 SetSpawnInfo(playerid,0,162,1544.70,-1353.41,329.47,150,38,10000,36,100,0,0);
@@ -89,7 +87,7 @@ public OnPlayerText(playerid, text[])
 public OnPlayerCommandText(playerid, cmdtext[])
 {
 	
-    	if (strcmp("/pozharnik", cmdtext, true, 10) == 0)
+    	if (strcmp("/pozhar", cmdtext, true, 10) == 0)
 	{    SetPlayerSkin(playerid, 277);  }
 	if (strcmp("/yanchafermer", cmdtext, true, 10) == 0)
 	{    SetPlayerSkin(playerid, 158);  }
